@@ -1,0 +1,39 @@
+body {
+  background-image: url(../images/night/clear.jpg);
+  color: whitesmoke;
+}
+.card {
+  color: #313131;
+}
+
+button {
+  margin-top: 15px;
+  border-radius: 10%;
+  border: none;
+  height: 40px;
+  width: 75px;
+  outline: none;
+  background: whitesmoke;
+  color: #313131;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background: #d581e66b;
+}
+input {
+  margin-top: 23px;
+}
+.header {
+  text-align: center;
+}
+#tables {
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+td {
+  color: whitesmoke;
+}

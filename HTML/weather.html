@@ -12,7 +12,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../weatherStyle.css" />
+    <link rel="stylesheet" href="../css/weatherStyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,9 +22,9 @@
   </head>
   <body>
     <!-- Mobile responsive Navebar with dropdown -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Weather</a>
+        <a class="navbar-brand" href="./index.html">D//A</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,6 +46,9 @@
             <li class="nav-item">
               <a class="nav-link" href="./weather.html">Weather App</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Portfolio.html">Portfolio</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -58,26 +61,36 @@
                 Dropdown
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="mailto: david.anderson1993@gmail.com"
+                    >Contact</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://www.instagram.com/davidandersoncreative/"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://www.beatstars.com/davidanderson76"
+                    >Beatstars</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="./forLoop.html">Loops Page</a>
                 </li>
               </ul>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
@@ -110,11 +123,7 @@
           <h2 class="city">Weather in Minneapolis</h2>
           <h1 class="temp">51°</h1>
           <div class="flex">
-            <img
-              src="https://openweathermap.org/img/wn/04n.png"
-              alt=""
-              class="icon"
-            />
+            <img src="" alt="" class="icon" />
             <div class="description">Sunny</div>
           </div>
           <div class="humidity">Humidity: 60%</div>
@@ -128,6 +137,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <script src="../weather.js"></script>
+    <script src="../js/weather.js"></script>
   </body>
 </html>

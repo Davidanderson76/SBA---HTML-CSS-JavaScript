@@ -1,0 +1,29 @@
+body {
+  background: #222;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url(../images/day/clear.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 15%;
+  border: none;
+  height: 15vh;
+  width: 15vh;
+  outline: none;
+  background: #7c7c7c2b;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background: #d581e66b;
+}
+.generatedDiv {
+  text-align: center;
+}
+.header {
+    text-align: center;
+  }
