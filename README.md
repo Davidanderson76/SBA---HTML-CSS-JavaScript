@@ -4,11 +4,6 @@
 
 - [Description](#Description)
 - [Tools/Technologies](#Tools/Technologies)
-- [Installation Instruction](#Installation-Instructions)
-- [Usage Information](#Usage-Information)
-- [Contributions](#Contributions)
-- [Testing](#Testing)
-- [Obstacles](#Obstacles)
 - [Questions?](#Questions?)
 
 ## Description
